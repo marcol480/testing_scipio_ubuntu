@@ -1,9 +1,10 @@
 language: c
 
 os:
-  - linux
+ - linux
+  
 dist:
-	- xenial
+ - xenial
 compiler:
   gcc
 
@@ -26,6 +27,5 @@ script:
 
 after_script:
 - ./bin/functions-test
-
 
 
