@@ -16,8 +16,8 @@ addons:
 
 
 install:
-  - apt-get install check 
-  - apt-get install subunit check
+  - sudo apt-get install check 
+  - sudo apt-get install subunit check
   
 script:
   - checkmk src/implementation-test.check > src/implementation-test.c
