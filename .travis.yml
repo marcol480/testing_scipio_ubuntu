@@ -18,6 +18,8 @@ addons:
 install:
   - sudo apt-get install check 
   - sudo apt-get install subunit check
+  - sudo apt-get install libgsl2
+  - sudo apt-get install libgsl-dev
   
 script:
   - checkmk src/implementation-test.check > src/implementation-test.c
